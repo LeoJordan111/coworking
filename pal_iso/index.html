@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome</title>
+</head>
+<body>
+    <header>
+        <h1>Palindromania !!</h1>
+    </header>
+    <main>
+        <form>
+            <p>
+                <label for="palindrome1">Rentrer le mot </label> : <input type="text" id="inputpalindrome">
+                <button type="button" onclick="estPalindrome('buttonpalindrome');">Validez</button>
+            </p>
+            <p id="resultatpalindrome"></p>
+        </form>
+
+        <h1>Isogramania !!</h1>
+        <form>
+            <p>
+                <label for="isogramme1">Rentrer le mot </label> : <input type="text" id="inputisogramme">
+                <button type="button" onclick="estIsogramme('buttonisogramme');">Validez</button>
+            </p>
+            <p id="resultatisogramme"></p>
+        </form>
+    </main>
+</body>
+  
+
+<script src="script.js"></script>
+</html>
